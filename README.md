@@ -14,7 +14,7 @@ Freezes the password and prevents newly-generated passwords from overwriting it.
 Only visible in-game.
 
 ### Enter button
-Enters the currently password on the Password screen.
+Enters the current password on the Password screen.
 
 Only visible outside of main game.
 
