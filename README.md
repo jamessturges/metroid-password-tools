@@ -21,7 +21,7 @@ Only visible outside of main game.
 ## Memory Pane
 Shows a manipulatable overview of all memory used in the password generation process, including unused or unknown bits.
 
-For the first 7 bytes, the memory represents whether or not Samus has obtained a specific item; behind-the-scenes the history of collected items will be updated with the collected items.
+For the first 7 bytes, the memory represents whether or not Samus has obtained a specific item; behind-the-scenes the history of collected items in memory will be updated with your selections.
 
 For the remainder of the bytes, the individual cells represent values in memory directly.
 
@@ -31,6 +31,8 @@ This view does not reflect the bits post-shift process, so the generated passwor
 For adding non-password related information to the Memory Pane, simply add an additional addressTableRow with the desired values. 
 
 The password generation code will not look at any address table rows past the ones required for password generation.
+
+An example is included, a commented-out line that adds NARPASSWORD to the Memory Pane. 
 
 ### Attribution
 I would like to thank ZaneDubya for their work on [MetroidMMC3](https://github.com/ZaneDubya/MetroidMMC3). Without this excellent disassembly, I would never have been able to complete this project. 
