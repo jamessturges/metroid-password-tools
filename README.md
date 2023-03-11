@@ -23,7 +23,7 @@ Shows a manipulatable overview of all memory used in the password generation pro
 
 For the first 7 bytes, the memory represents whether or not Samus has obtained a specific item; behind-the-scenes the history of collected items will be updated with the collected items.
 
-FOr the remainder of the bytes, the individual cells represent values in memory directly.
+For the remainder of the bytes, the individual cells represent values in memory directly.
 
 This view does not reflect the bits post-shift process, so the generated password will be right-bit-shifted the amount of times specified in the RNG bit.
 
