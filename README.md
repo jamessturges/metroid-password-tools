@@ -1,12 +1,12 @@
-# metroid-password-tools
-Script for viewing and manipulating passwords in Metroid. Meant for use with [Mesen](https://www.mesen.ca/) and utilizes it's Lua scripting feature.
+# Metroid Password Tools
+Metroid Password Tools is a script for viewing and manipulating passwords in Metroid. Meant for use with [Mesen](https://www.mesen.ca/) and utilizes its Lua scripting feature.
 
-With this tool, you can see everything that goes into a Metroid password, and manipulate it on-the-fly.
+With this tool, you can see every variable that goes into a Metroid password and manipulate them on-the-fly.
 
 Run the script by opening Metroid inside of Mesen > Debug > Script Window > File > Open
 
 ## Password Pane
-Shows a real-time generated password for your current game. Creates passwords authentic to how Metroid itself generates them, including the pseudo-encryption utilizing the shift byte.
+Shows a real-time generated password for your current game. Creates passwords identically to how Metroid itself generates them, including the pseudo-encryption that utilizes the shift byte.
 
 ### Freeze button
 Freezes the password and prevents newly-generated passwords from overwriting it.
